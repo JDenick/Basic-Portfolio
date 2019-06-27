@@ -73,7 +73,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
-    background: lightblue;
+    background-image: url(./../Images/sakura.png);
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px 0px 1px 0px;
@@ -111,4 +111,42 @@ body {
     border-color: #cccccc;
     border-width: 0px 0px 1px 0px;
     color: #4aaaa5;
+}
+
+#textwrapper {
+    width: 100%;
+    height: 350px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.imagebox {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    float: left;
+    top: 5px;
+    left: 5px;
+    box-sizing: border-box;
+    background: green;
+}
+
+.textbox {
+    float: right;
+    position: relative;
+    background: purple;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: #cccccc;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 6px 0px 0px 0px;
+    color: #777777;
+    padding: 40px;
 }
