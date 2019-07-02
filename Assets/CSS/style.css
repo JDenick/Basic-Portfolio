@@ -120,7 +120,7 @@ body {
 #textwrapper {
     width: 100%;
     height: 400px;
-    background-color: yellow;
+    background-color: white;
     padding: 20px;
 }
 
@@ -141,7 +141,7 @@ body {
     width: 600px;
     height: 250px;
     position: relative;
-    background: blue;
+    background:white;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -402,52 +402,68 @@ body {
         float: left;
         width: 100%;
    }
-
    #portfolioboxa {
-       margin-top: 40px;
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
    }    
-
    #portfolioboxb {
-       margin-left: 52px;
-       margin-top: 40px
+       margin-left: 15px;
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
    }
-
    #portfolioboxc{
        margin-left: 0px;
        margin-top: 70px;
+       height: 150px;
+       width: 150px;
    }
-
    #portfolioboxd {
-        margin-left: 52px;
+        margin-left: 15px;
         margin-top: 70px;
+        height: 150px;
+        width: 150px;
    }
-
    #portfolioboxe {
         margin-left: 0px;
         margin-top: 70px;
+        height: 150px;
+        width: 150px;
    }
-
    #portfolioboxf {
-        margin-left: 52px;
+        margin-left: 15px;
         margin-top: 70px;
+        height: 150px;
+        width: 150px;
    }
-
+   .contactname {
+       margin-top: 30px;
+   }
    .nametextbox {
        width: 100%;
+       margin-top: 15px;
    }
-
+   .contactemail {
+       margin-top: 40px;
+   }
    .emailtextbox {
        width: 100%;
+       margin-top: 15px;
    }
-
+   .contactmessage {
+        margin-top: 40px;
+   }
    .messagetextbox {
        width: 100%;
+       margin-top: 15px;
    }
-
+   .submitbuttonbox {
+       margin-top: 25px;
+   }
    #captionboxa {
        width: 100%;
    }
-
    #captionboxb {
        width: 100%;
    }
