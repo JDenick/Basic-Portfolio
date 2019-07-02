@@ -443,4 +443,12 @@ body {
    .messagetextbox {
        width: 100%;
    }
+
+   #captionboxa {
+       width: 100%;
+   }
+
+   #captionboxb {
+       width: 100%;
+   }
 }
