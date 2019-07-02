@@ -139,7 +139,7 @@ body {
 .textboxa {
     float: right;
     width: 600px;
-    height: 205px;
+    height: 250px;
     position: relative;
     background: blue;
     color: #777777;
@@ -430,5 +430,17 @@ body {
    #portfolioboxf {
         margin-left: 52px;
         margin-top: 70px;
+   }
+
+   .nametextbox {
+       width: 100%;
+   }
+
+   .emailtextbox {
+       width: 100%;
+   }
+
+   .messagetextbox {
+       width: 100%;
    }
 }
